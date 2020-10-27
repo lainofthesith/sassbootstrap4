@@ -1,5 +1,9 @@
 "use strict";
 
+import "popper.js";
+import "bootstrap";
+
+
 $(function () {
   var scrolloffset = 55; //variable for menu height
   // When Scrollspy Detects a change
