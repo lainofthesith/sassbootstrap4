@@ -1,11 +1,11 @@
 {
-  "name": " sassbootstrap4",
+  "name": "sassbootstrap4",
   "version": "1.0.0",
   "description": "Sass Bootstrap Starter",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "start": "parcel ./src/index.pug",
+    "build": "parcel build ./src/index.pug"
   },
   "author": "Damita Salmon",
   "license": "ISC",
