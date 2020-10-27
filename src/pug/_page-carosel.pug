@@ -1,0 +1,19 @@
+article#page-carousel.page-section
+  section#layout-carousel.layout-carousel.carousel.slide(data-ride='carousel')
+    .carousel-inner
+      ol.carousel-indicators
+        li(data-target='#layout-carousel' data-slide-to='0')
+        li.active(data-target='#layout-carousel' data-slide-to='1')
+        li(data-target='#layout-carousel' data-slide-to='2')
+      .carousel-item.active
+        img.img-fluid(src='https://dummyimage.com/16:9x1600/A/B.png&text=one' alt='Photo Sample')
+      .carousel-item
+        img.img-fluid(src='https://dummyimage.com/16:9x1600/B/C.png&text=two' alt='Photo Sample')
+      .carousel-item
+        img.img-fluid(src='https://dummyimage.com/16:9x1600/D/E.png&text=three' alt='Photo Sample')
+      a.carousel-control-prev(href='#layout-carousel' role='button' data-slide='prev')
+        span.carousel-control-prev-icon(aria-hidden='true')
+          span.sr-only Previous
+      a.carousel-control-next(href='#layout-carousel' role='button' data-slide='next')
+        span.carousel-control-next-icon(aria-hidden='true')
+          span.sr-only Previous

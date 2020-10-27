@@ -2,11 +2,23 @@ doctype html
 html(lang='en')
   head
     meta(charset='UTF-8')
-    meta(name='viewport' content='width=device-width,initial-scale=1')
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
     link(rel='stylesheet' href='sass/style.sass')
-    title Sass Bootstrap
-  body
-    .container
-      h1.mt-5 Sass Bootstrap
-      p Welcome to my Bootstrap project.
+    script(src="js/lib/fontawesome-all.min.js")
+    title Bootstrap 4 Layouts with Sass
+  body(data-spy="scroll" data-target=".site-nav" data-offset="55")
+    include pug/_site-header
+    include pug/_page-multicolumn
+    include pug/_page-media
+    include pug/_page-photogrid
+    include pug/_page-carosel
+    include pug/_page-nested
+    include pug/_page-icons
+    include pug/_page-floater
+    include pug/_page-cards
+    include pug/_footer
+    include pug/_site-modal
+    script(src="js/lib/jquery.min.js")
+    script(src="js/lib/bootstrap.bundle.min.js")
+    script(src="js/lib/fontawesome-all.min.js")
     script(src='js/script.js')
